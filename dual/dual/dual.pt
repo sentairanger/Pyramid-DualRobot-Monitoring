@@ -1,0 +1,53 @@
+<html>
+
+<head>
+<link rel="stylesheet" href="/static/dual.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+<h1> Pyramid Dual Robot</h1>
+<h2>Dual Robot D-Pads</h2>
+<div class="grid-button">
+<button>None</button>
+<button class="linus" id="forward"> ^ </button>
+<button>None</button>
+<button>None</button>
+<button class="torvalds" id="north"> ^ </button>
+<button>None</button>
+<button class="linus" id="left"> < </button>
+<button class="linus" id="linus">Blink</button>
+<button class="linus" id="right">></button>
+<button class="torvalds" id="west"><</button>
+<button class="torvalds" id="torvalds">Blink</button>
+<button class="torvalds" id="east">></button>
+<button>None</button>
+<button class="linus" id="backward">v</button>
+<button>None</button>
+<button>None</button>
+<button class="torvalds" id="south">v</button>
+<button>None</button>
+</div>
+<h1>Servo Control</h1>
+<h2>Servo One</h2>
+<div class="servo-button">
+<button id="min"> Min</button>
+<button id="mid"> Mid</button>
+<button id="max">Max</button>
+</div>
+<h2>Servo Two</h2>
+<div class="servo-button">
+<button id="min2"> Min</button>
+<button id="mid2"> Mid</button>
+<button id="max2">Max</button>
+</div>
+<h1>PWM Control</h1>
+<div class="speed-button">
+<button id="thirty">30%</button>
+<button id="fifty">50%</button>
+<button id="full">100%</button>
+</div>
+<script src="/static/dual.js"></script>
+</body>
+
+</html>

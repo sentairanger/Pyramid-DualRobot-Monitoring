@@ -1,0 +1,8 @@
+gandi-pyramid-prometheus==0.5
+gpiozero==1.6.2
+jaeger-client==4.8.0
+pigpio==1.78
+pyramid==2.0
+pyramid-chameleon==0.3
+pyramid-debugtoolbar==4.9
+waitress==2.0.0

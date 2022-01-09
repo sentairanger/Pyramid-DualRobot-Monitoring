@@ -1,0 +1,7 @@
+setup.py
+dual.egg-info/PKG-INFO
+dual.egg-info/SOURCES.txt
+dual.egg-info/dependency_links.txt
+dual.egg-info/entry_points.txt
+dual.egg-info/requires.txt
+dual.egg-info/top_level.txt
